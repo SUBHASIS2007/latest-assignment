@@ -1,0 +1,64 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{enumitem}
+
+% Formatting
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+
+% Header
+\begin{document}
+
+\begin{minipage}{0.7\textwidth}
+    \Huge\textbf\\
+    \normalsize
+    Name-Subhasis Sahu \\
+    kakdwip, West Bengal \\    phone- 2345678921 \\
+    email-sahu@gmail.com
+\end{minipage}
+
+\end{minipage}
+
+\vspace{1em}
+
+\section*{Education}
+\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}X|c|c|}
+\hline
+\textbf{Degree} & \textbf{Institution} & \textbf{Year} \\
+\hline
+B.Sc in Artificial Intelligence & MAKAUT & 2025 \\
+\hline
+H.S & DMDHS& 2024 \\
+\hline
+Madhyamik & BBMTS & 2022 \\
+\hline
+\end{tabularx}
+
+\vspace{1em}
+
+\section*{Awards and Achievements}
+\begin{itemize}
+    \item Winner, Best Conversational AI – Global AI Summit 2024
+    \item Featured in Time Magazine's Top 100 Innovations (2023)
+\end{itemize}
+
+\vspace{1em}
+
+\section*{Skills}
+\textbf{Languages:}  Python, LaTeX, SQL, C, C++\\
+\textbf{Computer:} Linux, Git, VS Code\\
+\textbf{Other:} Natural Language Processing, Data Analysis, DSA
+
+\vspace{1em}
+
+\section*{Activities and Interests}
+\begin{itemize}[leftmargin=*]
+    \item Volunteering in tech-literacy programs
+    \item Participating in hackathons and AI meetups
+\end{itemize}
+
+\end{document}
